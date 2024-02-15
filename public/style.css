@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    cursor:pointer;
+}
+.form-container{
+    background-color:ghostwhite;
+    border-radius:50px;
+    width:50%;
+    height:50%;
+    cursor:pointer;
+    border:5px 5px 5px solid black;
+    padding:20px;
+}
+
+.text{
+    border:1px solid black;
+    border-radius: 5px;
+
+    padding:8px;
+    width:50%;
+    cursor:pointer;
+}
+.pass{
+    border-radius:5px;
+    border:1px solid black;
+    width:50%;
+    padding:8px;
+    cursor:pointer;
+}
+.btn-submit{
+    width:130px;
+    height:30px;
+    border-radius:20px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+.form-group label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.btn-submit:hover{
+background-color: pink;    
+}
